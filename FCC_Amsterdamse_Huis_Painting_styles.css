@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c9d2fc;
+}
+
+.house-head {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width:150px;
+  height: 200px;
+  border: 1px solid #000;
+ 
+}
+
+.roof {
+  position: absolute;
+  top: 35px;
+  left: 100px;
+ z-index:6;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 80px solid #5e5e5e;
+}
